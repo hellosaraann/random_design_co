@@ -116,7 +116,7 @@ img {
     width: 100%;
 }
 
-h1, h2, h3, h4, .button {
+h1, h2, h3, h4 {
     text-transform: uppercase;
 }
 
@@ -230,7 +230,7 @@ h1 {
   padding: 0;
   text-align: center;
   position: absolute;
-  width: 50%;
+  width: 60%;
   top: 30%;
   margin-left: auto;
   margin-right: auto;
@@ -245,7 +245,7 @@ input.button {
   color: #fff;
   border: 2px solid #fff;
   border-radius: 0;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 input.button:hover {
