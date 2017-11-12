@@ -253,13 +253,14 @@ input.button:hover {
   color: #111;
 }
 
-/* intro paragraph */
+/* sections */
 
-.intro-paragraph {
-    border: 1px solid black;
+section {
+  border-bottom: 1px solid #666;
 }
 
 /* thumbnail gallery */
+
 .thumbnails ul {
     list-style: none;
     text-decoration: none;
@@ -267,17 +268,45 @@ input.button:hover {
 }
 
 .thumbnails li {
+    border: 1px solid blue;
     display: block;
-}
-.thumbnails {
-    border: 1px solid yellow;
+    position: relative;
+    margin: .1rem;
 }
 
 .span-2 {
     float: left;
-    width: 50%;
+    width: 49%;
+}
 
+.thumbnails a:link h4,
+.thumbnails a:visited h4 {
+  color: #111;
+  font-size: 1.2rem;
+  line-height: 1em;
+  margin: 0 auto;
+  position: absolute;
+  padding: 0;
+  text-align: center;
+  position: absolute;
+  width: 50%;
+  top: 42%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0; right: 0;
+}
 
+.thumbnails a:hover h4 {
+  color: #fff;
+}
+
+.thumbnails a:link img,
+.thumbnails a:visited img {
+  opacity: .2;
+}
+
+.thumbnails a:hover img {
+  opacity: 1.0;
 }
 
 /* footer */
