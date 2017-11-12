@@ -264,11 +264,11 @@ section {
 .thumbnails ul {
     list-style: none;
     text-decoration: none;
-    padding: 0;
+    padding: 0 0 1rem 0;
+    overflow: auto;
 }
 
 .thumbnails li {
-    border: 1px solid blue;
     display: block;
     position: relative;
     margin: .1rem;
@@ -313,7 +313,7 @@ section {
 
 footer {
     clear: both;
-    border: 1px solid green;
+    text-align: center;
 }
 
 
