@@ -12,7 +12,7 @@
 
 html {
     color: #222;
-    font-size: 1em;
+    font-size: 1.4em;
     line-height: 1.4;
 }
 
@@ -97,10 +97,95 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* globals */
+
+body {
+    border: 2px solid purple;
+    font-family: Helvetica, Verdana, sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+h1, h2, h3, h4, button {
+    text-transform: uppercase;
+}
 
 
+h1 {
+    font-size: 1em;
+    float: left;
+}
+
+.main-nav ul,
+.thumbnails ul {
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+}
+
+.main-nav li,
+.thumbnails li {
+    display: block;
+}
+
+/* nav bar */
+
+.main-nav {
+    border: 1px solid red;
+    padding: .5em 1em;
+    color: #fff;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav-icon {
+    float: right;
+}
+
+.dropdown {
+
+}
+
+.main-nav a {
+    color: #fff;
+}
+
+/* header */
+
+.main-header {
+    border: 1px solid blue;
+}
+
+/* intro paragraph */
+
+.intro-paragraph {
+    border: 1px solid black;
+}
+
+/* thumbnail gallery */
+
+.thumbnails {
+    border: 1px solid yellow;
+}
+
+.span-2 {
+    float: left;
+    width: 50%;
 
 
+}
+
+/* footer */
+
+footer {
+    clear: both;
+    border: 1px solid green;
+}
 
 
 
